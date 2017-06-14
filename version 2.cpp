@@ -315,6 +315,7 @@ void bienvenida()
 	//cout<<"\t\t\t******************** MARIO'S PIZZA ********************"<<endl;
 	system("cls");
 	cout<<"\n\n\n\n\n\t\t\t\t\t\t\t\t\tBIENVENIDOS A"<<endl<<endl;
+	//cout<<"\n\n\n\n\n\t\t\t\t\t\t\t\t\t  MARIO'S'"<<endl<<endl;
 	cout<<"*******                ********        **************     *****************         *********************      **************       ***  *********************"<<endl;
 	cout<<"********              *********      *****************    *******************       *********************     ****************      ***  *********************"<<endl;
 	cout<<"*********            **********     *******    *******    *********************     *********************    ******************     ***  *********************"<<endl;
@@ -392,7 +393,7 @@ void menucliente()
 		{
 			cout<<endl<<"========================= PRODUCTO NO ENCONTRADO ==========================="<<endl;	
 		}												
-		
+		cout<<endl;		
 		//guardamos las ordenes compradas en el arbol						
 		listaa Listaa;
 		Listaa.insertarnodo2(arbol2,val2,val22,val33,val44,val55,NULL);						
