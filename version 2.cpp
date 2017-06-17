@@ -393,10 +393,12 @@ void menucliente()
 		{
 			cout<<endl<<"========================= PRODUCTO NO ENCONTRADO ==========================="<<endl;	
 		}												
-		cout<<endl;		
+		else
+		{		
 		//guardamos las ordenes compradas en el arbol						
 		listaa Listaa;
 		Listaa.insertarnodo2(arbol2,val2,val22,val33,val44,val55,NULL);						
+		}
 		
 	Listaa1.mostrararbol(arbol2);
 	cout<<"Total: "<<total<<endl;
