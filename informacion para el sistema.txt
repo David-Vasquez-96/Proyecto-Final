@@ -1,0 +1,4 @@
+para regresar al menu del propietario para ingresar mas productos, a la hora que 
+se muestra el mensaje "Presione 1 y enter  para continuar" en lugar de poner 1 para el sistema
+del cliente, se ingresa 2 para regresar al sistema del propietario para ingresar informacion
+de productos y ver el inventario de productos que tenemos.
